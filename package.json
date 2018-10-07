@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-v6.js",
+  "version": "1.0.0",
+  "description": "v6.js ESLint Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-tempest/eslint-config-v6.js.git"
+  },
+  "author": "Vladislav Tikhiy (SILENT)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silent-tempest/eslint-config-v6.js/issues"
+  },
+  "homepage": "https://github.com/silent-tempest/eslint-config-v6.js#readme",
+  "peerDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-jquery": "^1.0.1"
+  }
+}
