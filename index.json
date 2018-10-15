@@ -95,6 +95,7 @@
     ],
     "no-bitwise": "error",
     "no-multi-assign": "error",
-    "no-undefined": "error"
+    "no-undefined": "error",
+    "no-ternary": "error"
   }
 }
