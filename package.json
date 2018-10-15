@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-v6.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "v6.js ESLint Configuration",
   "main": "index.js",
   "scripts": {
