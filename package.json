@@ -2,7 +2,7 @@
   "name": "eslint-config-v6.js",
   "version": "1.0.4",
   "description": "v6.js ESLint Configuration",
-  "main": "index.js",
+  "main": "index.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
