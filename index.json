@@ -31,7 +31,11 @@
     "brace-style": "off",
     "max-len": [
       "warn",
-      100
+      {
+        "code": 100,
+        "ignoreUrls": true,
+        "ignoreRegExpLiterals": true
+      }
     ],
     "space-before-function-paren": [
       "error",
@@ -68,6 +72,7 @@
     "space-unary-ops": [
       "error",
       {
+        "words": false,
         "nonwords": true,
         "overrides": {
           "++": false,
@@ -76,26 +81,24 @@
         }
       }
     ],
-    "no-fallthrough": [
-      "error",
-      {
-        "commentPattern": "falls through"
-      }
-    ],
     "eqeqeq": [
       "error",
       "always"
     ],
     "one-var": [
       "error",
-      {
-        "uninitialized": "always",
-        "initialized": "never"
-      }
+      "never"
     ],
     "no-bitwise": "error",
+    "no-fallthrough": "error",
     "no-multi-assign": "error",
+    "no-ternary": "error",
     "no-undefined": "error",
-    "no-ternary": "error"
+    "valid-typeof": [
+      "error",
+      {
+        "requireStringLiterals": true
+      }
+    ]
   }
 }
