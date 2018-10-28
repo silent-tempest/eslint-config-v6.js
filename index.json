@@ -92,6 +92,12 @@
     "no-bitwise": "error",
     "no-fallthrough": "error",
     "no-multi-assign": "error",
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+      }
+    ],
     "no-ternary": "error",
     "no-undefined": "error",
     "valid-typeof": [
